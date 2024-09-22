@@ -5,6 +5,7 @@ import MyButton from "./components/MyButton"
 import MyForm from "./components/MyForm"
 import Login from "./components/Login"
 import { Outlet } from "react-router-dom"
+import Header from "./components/Header"
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       {/* <MyButton/> */}
       {/* <MyForm/> */}
       {/*<Login/>*/}
-      <h1>Header</h1>
+      <Header />
       <Outlet />
     </>
   )

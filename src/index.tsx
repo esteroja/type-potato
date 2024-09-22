@@ -11,24 +11,26 @@ import {
   RouterProvider,
 } from "react-router-dom"
 import Login from "./components/Login"
+import Info from "./components/Info"
+import Homepage from "./components/Homepage"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route
-      path="/"
+      path=""
       element={<App />}
     >
+      <Route
+        path="/"
+        element={<Homepage />}
+      ></Route>
       <Route
         path="login"
         element={<Login />}
       ></Route>
       <Route
-        path="extra"
-        element={<h1>Extra</h1>}
-      />
-      <Route
-        path="contact"
-        element={<h1>Contact</h1>}
+        path="info"
+        element={<Info />}
       />
     </Route>,
   ),

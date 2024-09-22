@@ -44,7 +44,8 @@ export default function MyForm() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "100vh",
+        height: "100%",
+        marginTop: "50px"
       }}
     >
       <form onSubmit={handleSubmit}>
@@ -54,12 +55,12 @@ export default function MyForm() {
             gutterBottom
             align="center"
           >
-            Login
+            Sisselogimine
           </Typography>
           <TextField
             name="username"
             id="outlined-basic"
-            label="username"
+            label="kasutajanimi"
             variant="outlined"
             // onChange={(event)=> setUsername(event.target.value)}/>
             onChange={handleChange}
@@ -67,7 +68,7 @@ export default function MyForm() {
           <TextField
             name="password"
             id="outlined-basic"
-            label="password"
+            label="parool"
             //onChange={(event)=> setPassword(event.target.value)}/>
             onChange={handleChange}
           ></TextField>
@@ -75,8 +76,9 @@ export default function MyForm() {
           <Button
             variant="contained"
             type="submit"
+            sx={{ bgcolor: "lightcoral" }}
           >
-            Saada
+            Logi sisse
           </Button>
         </Stack>
       </form>

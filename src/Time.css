@@ -1,0 +1,24 @@
+.clockContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.clock {
+    font-family: 'Courier new', monospace;
+    font-size: 3rem;
+    color: #ffffff;
+    background-color: lightcoral;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(255, 78, 78, 0.3);
+    text-align: center;
+    width: 250px;
+    margin: 100px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .clock:hover {
+    background-color: #f096b8;
+    box-shadow: 0px 8px 25px rgba(255, 208, 168, 0.5);
+    transform: scale(1.05);
+  }
