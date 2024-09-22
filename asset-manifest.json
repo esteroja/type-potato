@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/type-potato/static/css/main.ab42435d.css",
-    "main.js": "/type-potato/static/js/main.0d994bc4.js",
+    "main.js": "/type-potato/static/js/main.d0353a98.js",
     "static/js/453.7aade366.chunk.js": "/type-potato/static/js/453.7aade366.chunk.js",
     "index.html": "/type-potato/index.html",
     "main.ab42435d.css.map": "/type-potato/static/css/main.ab42435d.css.map",
-    "main.0d994bc4.js.map": "/type-potato/static/js/main.0d994bc4.js.map",
+    "main.d0353a98.js.map": "/type-potato/static/js/main.d0353a98.js.map",
     "453.7aade366.chunk.js.map": "/type-potato/static/js/453.7aade366.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab42435d.css",
-    "static/js/main.0d994bc4.js"
+    "static/js/main.d0353a98.js"
   ]
 }
